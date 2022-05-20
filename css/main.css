@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
-section * {
+section {
     display: flex;
 }
 
@@ -46,8 +46,8 @@ section * {
 }
 
 .btn {
-    cursor: default;
-    border: none;
+    cursor: pointer;
+    border: 0;
     padding-top: 6px;
     padding-bottom: 12px;
     border-radius: 3px;
@@ -70,6 +70,7 @@ section * {
     padding-bottom: 6px;
     padding-left: 12px;
     padding-right: 12px;
+    border-width: 1px;
     border-style: solid;
     border-color: #a0a0a0;
     color: #8598a2;
@@ -82,10 +83,11 @@ section * {
 }
 
 .text-secondary {
+    font-size: 30px;
     color: #faa541;
 }
 
-.text_primary {
+.text-primary {
     font-size: 16px;
     color: #364147;
 }
