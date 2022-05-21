@@ -8,6 +8,7 @@ nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
+/********** Utility Classes ***********/
 .container {
     margin-top: 0;
     margin-bottom: 0;
@@ -89,4 +90,71 @@ section {
 .text-primary {
     font-size: 16px;
     color: #364147;
+}
+
+/************ Header & Navigation ***********/
+.header-nav {
+    border-bottom: 1px;
+    border-color: #a0a0a0;
+}
+
+.brand {
+    width: 170px;
+    height: 85px;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-box {
+    width: 330px;
+    height: 30px;
+    padding: 6px 6px 12px 12px;
+    border-width: 1px;
+    border-color: #a0a0a0;
+}
+
+.search-button {
+    background-color: #a0a0a0;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    padding: 0;
+}
+
+.nav-list {
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px;
+
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.profile {
+    margin-left: auto;
+}
+
+.account {
+    text-align: right;
+    padding: 15px;
+    color: #364147;
+    font-size: 18px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic img {
+    border-radius: 100px;
+    max-width: 100%;
 }
